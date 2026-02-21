@@ -1,0 +1,16 @@
+export const sortStatusCodes: Record<number, { name: string; nameKo: string }> = {
+  1:  { name: 'Sorting Done',        nameKo: '정상 구분' },
+  2:  { name: 'Chute Full',          nameKo: '슈트 만재' },
+  3:  { name: 'Chute Blocked',       nameKo: '슈트 블록' },
+  4:  { name: 'Carrier Disabled',    nameKo: '캐리어 비활성화' },
+  5:  { name: 'Discharge Error',     nameKo: '배출 에러' },
+  6:  { name: 'Data Loss',           nameKo: '데이터 로스' },
+  7:  { name: 'No Destination',      nameKo: '목적지 없음' },
+  8:  { name: 'Wrong Destination',   nameKo: '목적지 이상' },
+  9:  { name: 'Multi Destination',   nameKo: '다중 캐리어 목적지 다름' },
+  10: { name: 'Not Detected',        nameKo: '소포미감지' },
+  11: { name: 'Abnormal Discharge',  nameKo: '비정상배출' },
+  12: { name: 'Auto Block',          nameKo: '자동블록' },
+  13: { name: 'Position Error',      nameKo: '소포 위치 이상' },
+  14: { name: 'Induction Error',     nameKo: '투입 에러' },
+};

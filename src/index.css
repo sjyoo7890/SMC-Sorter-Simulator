@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  /* Background */
+  --color-bg-primary: #0f1419;
+  --color-bg-card: #1a2332;
+  --color-bg-card-hover: #1e2a3a;
+
+  /* Border */
+  --color-border: #2a3a4e;
+
+  /* Direction colors */
+  --color-plc-to-smc: #3b82f6;
+  --color-smc-to-plc: #f59e0b;
+
+  /* Status */
+  --color-success: #10b981;
+  --color-error: #ef4444;
+  --color-warning: #f59e0b;
+
+  /* Text */
+  --color-text-primary: #e2e8f0;
+  --color-text-secondary: #94a3b8;
+
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
+
+#root {
+  min-height: 100vh;
+}
